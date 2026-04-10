@@ -53,33 +53,33 @@ This helps balance pixel‑level accuracy with region‑level overlap.
 # Training
 The training pipeline includes:
 
-    1- Data augmentation (flips, rotations, color jitter)
+1- Data augmentation (flips, rotations, color jitter)
 
-    2- Normalization
+2- Normalization
 
-    3- Adam optimizer with a learning rate of 1e‑4
+3- Adam optimizer with a learning rate of 1e‑4
 
-    4- 20 training epochs
+4- 20 training epochs
 
-    5- A train/validation split for monitoring performance
+5- A train/validation split for monitoring performance
 
 The notebook also includes training curves and qualitative predictions.
 # What’s Inside the Notebook
 The notebook walks through the entire workflow:
 
-    + Loading and pairing images with masks
++ Loading and pairing images with masks
 
-    + Building a custom PyTorch dataset
++ Building a custom PyTorch dataset
 
-    + Applying data augmentation
++ Applying data augmentation
 
-    + Implementing the ResNet34‑UNet model
++ Implementing the ResNet34‑UNet model
 
-    + Training and validation loops
++ Training and validation loops
 
-    + Visualizing predictions
++ Visualizing predictions
 
-    + Final baseline model summary
++ Final baseline model summary
 
 Everything is written to be easy to follow and modify.
 # Results
@@ -90,14 +90,14 @@ A final train/validation/test split was explored, but due to the limited dataset
 
 There are several directions to build on this baseline:
 
-Better dataset splitting (stratified or stain‑balanced)
++ Better dataset splitting (stratified or stain‑balanced)
 
-Stain normalization
++ Stain normalization
 
-Higher‑resolution training
++ Higher‑resolution training
 
-Stronger augmentation (elastic transforms, blur)
++ Stronger augmentation (elastic transforms, blur)
 
-Trying deeper encoders (ResNet50, EfficientNet)
++ Trying deeper encoders (ResNet50, EfficientNet)
 
-Early stopping and checkpointing
++ Early stopping and checkpointing
