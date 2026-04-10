@@ -5,7 +5,7 @@ The entire workflow, from dataset preparation to model training and evaluation, 
 # Dataset
 The dataset comes from Kaggle
 
-  /kaggle/input/datasets/andrewmvd/breast-cancer-cell-segmentation
+    /kaggle/input/datasets/andrewmvd/breast-cancer-cell-segmentation
   
 It contains:
 
