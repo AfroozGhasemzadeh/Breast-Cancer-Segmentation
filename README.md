@@ -4,7 +4,9 @@ This project explores how to segment tumor regions in histopathology images usin
 The entire workflow, from dataset preparation to model training and evaluation, is implemented in a single, well‑structured notebook.
 # Dataset
 The dataset comes from Kaggle
-  #/kaggle/input/datasets/andrewmvd/breast-cancer-cell-segmentation
+
+  /kaggle/input/datasets/andrewmvd/breast-cancer-cell-segmentation
+  
 It contains:
 
 + H&E‑stained histopathology images
